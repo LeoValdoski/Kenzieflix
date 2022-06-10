@@ -1,0 +1,99 @@
+li{
+    list-style: none;
+    display:inline-block;
+    padding: 16px;
+
+}
+
+
+
+li img:hover{
+    border: 4px solid white;
+    transition: 0.3s;
+    border-radius: 20px;
+}
+
+img{
+    border-radius: 8px;
+    display: flex;
+    border: 4px solid transparent;
+    transition: 0.5s;
+}
+
+body{
+    background: black;
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 32px;
+
+}
+
+.titulo img{
+    width: 229px;
+    height: 68px;
+    align-items: center;
+    margin-top: 42px;
+
+}
+
+.descricao{
+    margin-top: 73px;
+    margin-bottom: 73px;
+}
+
+.gerenciar{
+    border: 2px solid #fff;
+    width: 206px;
+    height: 50px;
+    border-radius: 15px;
+    position: ;
+    font-family: 'IBM Plex Sans', sans-serif;
+    border-top: ;
+
+    
+}
+
+button{
+    background-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    position: ;
+    font-family: 'IBM Plex Sans', sans-serif;
+    border: none;
+    border: 2px solid ;
+    border-radius: 10px;
+    width: 206px;
+    height: 50px;
+    transition: 0.5s;   
+    font-weight: bold;
+    
+}
+
+span{
+    font-size: 16px;
+
+
+}
+
+.adicionar{
+
+}
+
+
+
+
+button:hover{
+    background: #fff;
+    transition: 0.3s;
+}
+
+button span:hover{
+    color: black;
+    transition: 0.5s;
+}
+
+span{
+    transition: 0.5s;
+
+}
