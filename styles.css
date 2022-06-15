@@ -1,11 +1,13 @@
 li{
     list-style: none;
-    display:inline-block;
-    padding: 10px;
-
+ 
 }
 
-
+ul{
+    max-width: 700px;
+    display: flex;
+    gap: 26px;
+}
 
 li:hover img{
     border: 2px solid white;
@@ -15,10 +17,11 @@ li:hover img{
 
 img{
     border-radius: 8px;
-    display: flex;
     border: 2px solid transparent;
     transition: 0.5s;
     width: 160px;
+
+
 }
 
 body{
@@ -68,6 +71,7 @@ button:hover{
 .texto{
     color: #9C9C9C;
     font-size: 16px;
+
 }
 
 li:hover .texto{
@@ -75,8 +79,6 @@ li:hover .texto{
     color: white;
 }
 
-div{
-    max-width: 810px;
-}
+
 
 
